@@ -1,0 +1,7 @@
+.disabled{
+  cursor: not-allowed;
+  display: none;
+}
+.disabled2{
+  cursor: not-allowed;
+}

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend';
+  activePage:number = 0;
+
+  displayActivePage(activePageNumber:number){
+    this.activePage = activePageNumber
+  }
 }
